@@ -8,7 +8,7 @@ This is an implementation of ADSD algorithm to identify connectomic subgraphs th
 
 "greedy_ad_blik.m" is the complete ADSD algorithm with lambda selected by integrated likelihood (Algorithm (2) in Web Appendix). 
 
-"sim_clique_repeat_wgold.m" is for replicated simulation results with comparison to Charikar's and Goldberg's algorithm.
+"perm_label.m" is for the network-level inference based on non-parametric permutation tests.
 
 # Examples
-We include an example of the implementation of ADSD on a brain network data from schizophrenia study.  "W1_correct.mat" is the matrix for edge-wise inference results. "demo.m" illustrates the ADSD procedure on the weighted adjacency matrix. To see the demonstrative document with codes and output, please refer to "demo.html" observed from the publish option of Matlab.
+We include an example of the implementation of ADSD on a brain network data from schizophrenia study.  "edge_wise_res.mat" is the matrix for edge-wise inference results. "demo.m" illustrates the ADSD procedure on the weighted adjacency matrix. To see the demonstrative document with codes and output, please refer to "demo.html" observed from the publish option of Matlab.
