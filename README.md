@@ -5,7 +5,9 @@ This is an implementation of ADSD algorithm to identify connectomic subgraphs th
 # Codes
 
 "greedy_ad.m" is the function for greedy algorithm (Algorithm (1) in Web Appendix) to maximize the adaptive density function with a given lambda.
+
 "greedy_ad_blik.m" is the complete ADSD algorithm with lambda selected by integrated likelihood (Algorithm (2) in Web Appendix). 
+
 "sim_clique_repeat_wgold.m" is for replicated simulation results with comparison to Charikar's and Goldberg's algorithm.
 
 # Examples
