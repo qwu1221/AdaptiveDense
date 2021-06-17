@@ -11,4 +11,4 @@ This is an implementation of ADSD algorithm to identify connectomic subgraphs th
 "perm_label.m" is for the network-level inference based on non-parametric permutation tests.
 
 # Examples
-We include an example of the implementation of ADSD on a brain network data from schizophrenia study.  "edge_wise_res.mat" is the matrix for edge-wise inference results. "demo.m" illustrates the ADSD procedure on the weighted adjacency matrix. To see the demonstrative document with codes and output, please refer to "demo.html" observed from the publish option of Matlab.
+We include a demo to reproduce the ADSD results on the brain network data from schizophrenia study.  "edge_wise_res.mat" is the matrix of edge-wise inference results. "demo.m" illustrates the ADSD procedure on the weighted adjacency matrix. To see the demonstrative document with codes and output, please refer to "demo.html" observed from the publish option of Matlab.
